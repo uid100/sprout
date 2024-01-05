@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "title": "BSV-Madagascar",
+      "risk": "low",
+      "description": "This is the first card."
+    },
+    {
+      "id": 2,
+      "title": "SFC-COP2535",
+      "risk": "high",
+      "description": "Data Structures."
+    },
+    {
+      "id": 3,
+      "title": "SFC-COP2552",
+      "risk": "low",
+      "description": "OOP2 (Java)"
+    },
+    {
+      "id": 4,
+      "title": "SFC-4xxx",
+      "risk": "low",
+      "description": "Cloud Services"
+    },
+    {
+      "id": 5,
+      "title": "CUY-CS119",
+      "risk": "low",
+      "description": "Pgm Design"
+    },
+    {
+      "id": 6,
+      "title": "SDM-CIS171",
+      "risk": "medium",
+      "description": "Java2"
+    },
+    {
+      "id": 7,
+      "title": "Pal-CSIT175",
+      "risk": "medium",
+      "description": "Python"
+    }
+  ]
+  
