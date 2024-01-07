@@ -3,6 +3,7 @@ import './assets/css/App.css';
 import React from 'react';
 import CardList from './components/CardList';
 import TodaysDate from './components/TodaysDate';
+import TodoList from './components/TodoList';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <div>
         <TodaysDate />
         <CardList />
+        {/* <TodoList /> */}
       </div>
     </div>
   );

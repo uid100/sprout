@@ -1,4 +1,5 @@
-[
+{
+  "projects": [
     {
       "id": 1,
       "title": "BSV-Madagascar",
@@ -25,7 +26,7 @@
     },
     {
       "id": 5,
-      "title": "CUY-CS119",
+      "title": "CS119",
       "risk": "low",
       "description": "Pgm Design"
     },
@@ -41,5 +42,13 @@
       "risk": "medium",
       "description": "Python"
     }
+  ],
+  "pages": [
+    {
+      "term": "24_01",
+      "org": "CUY",
+      "course": "CS119",
+      "filename": "lab1.html"
+    }
   ]
-  
+}

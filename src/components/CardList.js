@@ -8,7 +8,7 @@ const CardList = () => {
     return (
         <div className="container">
             <div className="row">
-                {data.map((card) => (
+                {data.projects.map((card) => (
                     <div key={card.id} className="col-md-4 mb-3">
                         <div className="card">
                             <div className='card-header blue-card-header'>
@@ -16,6 +16,15 @@ const CardList = () => {
                             </div>
                             <div className="card-body">
                                 <p className="card-text">{card.description}</p>
+                                <ul>
+                                    {data.pages.map(pg => {
+                                        const url = '"/data/' + pg.term + '/' + pg.org + '/' + pg.course + '/' + pg.filename + '"'
+                                        if (card.title == pg.course) {
+                                            console.log(url);
+                                            return <li><a href={url}>{pg.filename}</a></li>;
+                                        }
+                                    })}
+                                </ul>
                             </div>
                         </div>
                     </div>
