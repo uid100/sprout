@@ -1,9 +1,7 @@
-npm run deploy -- -m "Deploy Sprout app to GitHub pages"
-[https://uid100.github.io/sprout/]
-
-# Getting Started with Create React App
+# Sprout
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
@@ -31,6 +29,11 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run deploy -- -m "Deploy Sprout app to GitHub pages"`
+
+[https://uid100.github.io/sprout/](https://uid100.github.io/sprout/)
+
 
 ### `npm run eject`
 
