@@ -18,8 +18,8 @@ const CardList = () => {
                                 <p className="card-text">{card.description}</p>
                                 <ul>
                                     {data.pages.map(pg => {
-                                        const url = '/html/' + pg.org + '/' + pg.course + '/' + pg.filename
-                                        if (card.title == pg.course) {
+                                        const url = '/html/' + pg.org + '/' + pg.course + '/' + pg.filename + '"'
+                                        if (card.title === pg.course) {
                                             console.log(url);
                                             return <li><a href={url}>{pg.filename}</a></li>;
                                         }
