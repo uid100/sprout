@@ -26,7 +26,7 @@
     },
     {
       "id": 5,
-      "title": "CS119",
+      "title": "cs119",
       "risk": "low",
       "description": "Pgm Design"
     },
@@ -46,8 +46,8 @@
   "pages": [
     {
       "term": "24_01",
-      "org": "CUY",
-      "course": "CS119",
+      "org": "cuy",
+      "course": "cs119",
       "filename": "lab1.html"
     }
   ]
