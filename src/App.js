@@ -3,7 +3,7 @@ import './assets/css/App.css';
 import React from 'react';
 import CardList from './components/CardList';
 import TodaysDate from './components/TodaysDate';
-import Cs119 from './assets/24_01/cuy/Cs119Homepage';
+import Cs119 from './assets/24_01/cuy/Cs119';
 import TodoList from './components/TodoList';
 
 function App() {

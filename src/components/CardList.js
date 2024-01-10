@@ -2,6 +2,8 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import '../assets/css/cardList.css';
 
+import '../assets/24_01/cuy/Cs119'
+
 const data = require('../data/data.json'); // Import the JSON data
 
 const CardList = () => {
@@ -18,11 +20,12 @@ const CardList = () => {
                                 <p className="card-text">{card.description}</p>
                                 <ul>
                                     {data.pages.map(pg => {
-                                        const url = 'public/html/' + pg.org + '/' + pg.course + '/' + pg.filename
+                                        const url = process.env.PUBLIC_URL + '/html/' + pg.org + '/' + pg.course + '/' + pg.filename
                                         if (card.title === pg.course) {
-                                            console.log(url);
+                                            console.log("url:" + url);
                                             return <li><a href={url}>{pg.filename}</a></li>;
                                         }
+                                        else { console.log(card.title); }
                                     })}
                                 </ul>
                             </div>

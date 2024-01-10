@@ -2,7 +2,7 @@ import React from "react";
 
 const Cs119 = () => {
     const today = new Date();
-    const start = new Date("2024-01-01");
+    const start = new Date("2024-01-29");
     let days = (today.getTime() - start.getTime()) / (1000 * 3600 * 24);
     console.log("week " + (1 + Math.floor(days / 7)));
 
