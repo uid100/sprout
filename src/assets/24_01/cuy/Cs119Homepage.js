@@ -1,6 +1,6 @@
 import React from "react";
 
-const cs119 = () => {
+const Cs119 = () => {
     const today = new Date();
     const start = new Date("2024-01-01");
     let days = (today.getTime() - start.getTime()) / (1000 * 3600 * 24);
@@ -18,4 +18,4 @@ const cs119 = () => {
     );
 };
 
-export default cs119;
+export default Cs119;
