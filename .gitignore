@@ -11,6 +11,9 @@
 # production
 /build
 
+# publisher content
+/public/html/pal/csit175/resources
+
 # misc
 .DS_Store
 .env.local
